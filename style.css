@@ -1,0 +1,178 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 100vw;
+  height:100vh;
+  margin: 0 auto;
+  background: url('xcvbkl\ 1\ \(1\).png')
+    no-repeat center;
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  position: absolute;
+  top: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  justify-content: space-between;
+  bottom: 170px;
+}
+.container{
+  position: relative;
+  left: 60px;
+  bottom: 10px;
+}
+.container p{
+  position: relative;
+  bottom: -40px;
+  left: 15px;
+  padding: 0;margin: 0;
+  color: #FFF;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 200;
+
+line-height: 76px;
+
+
+}
+.container p span{
+  position: relative;
+  left: 220px;
+  bottom: 85px;
+  padding: 0;margin: 0;
+  color: #FFF;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: normal;
+
+line-height: 96px;}
+.container hr {
+  height: 2px;
+  width: 320px;
+  background: #FFF;
+  
+  position: relative;
+  left: 420px;
+  bottom: 150px;
+  transform: rotate(90deg); 
+  
+}
+.container p span{
+  color: #FFF;
+  font-family: Poppins;
+  
+  font-style: normal;
+  
+  line-height: 96px;
+  font-weight: 800;
+
+
+}
+.input{
+  position: relative;
+  top: 20px;
+  left: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sign-up{
+  position: relative;
+  top: 30px;
+  width: 283px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 25px;
+color: #000;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+/* border: 0px; */
+z-index: 10;
+border: 2px solid transparent; /* Initially no border */
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+.log-in{
+  position: relative;
+  top: -16px;
+border-radius: 25px;
+background: #07F;
+width: 283px;
+height: 70px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: 0px;
+z-index: 10;
+cursor: pointer;
+
+}
+
+.logo-img{
+  position: relative;
+  width: 90px;
+height: 90px;
+flex-shrink: 0;
+top: 10px;
+left: 10px;
+
+}
+
+#hiddenDiv_up{
+  height: 180px;
+  width: 180px;
+  position: relative;
+  left: 1035px;
+  top: 270px;
+  opacity: 0;
+  margin: 0;padding: 0;
+  transition: all 0.1s ease-in-out;
+
+}
+#hiddenDiv_down{
+  height: 180px;
+  width: 180px;
+  position: relative;
+  left: 1030px;
+  top: 290px;
+  opacity: 0;
+  margin: 0;padding: 0;
+  transition: all 0.1s ease-in-out;
+
+
+}
+
